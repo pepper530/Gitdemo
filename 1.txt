@@ -1,2 +1,5 @@
 1234
 git add .\1.txt    // 将1.txt从工作区添加到缓冲区
+git commit  -m "add 1.txt"  // 再从缓冲区提交到归档区
+git remote add origin https://github.com/pepper530/Gitdemo.git  // 添加一个远端的仓库
+git push -u origin master   // 将归档区的内容提交到远端的仓库
